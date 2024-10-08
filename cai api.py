@@ -9,7 +9,7 @@ nest_asyncio.apply()
 
 async def main():
     char = 'LCMaBNdFrilQh7TOq8R1Z9h-D1D0nMKbbMoJxG2R4TA' # gigachad character by default :3
-    client = aiocai.Client('980e930fe896d0c965b8657d1eca275910ac8ff1') # get this from the tutorial
+    client = aiocai.Client('') # get this from the tutorial
     
     me = await client.get_me()
     chat_history = []
